@@ -28,8 +28,41 @@ SOFTWARE.
     <title>vampire.town</title>
     <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- Google Specific -->
+
+    <meta name="googlebot" content="index,follow">
+    <!-- Tells Google not to show the sitelinks search box -->
+    <meta name="google" content="nositelinkssearchbox">
+
+    <!-- Tells Google not to provide a translation for this page -->
+    <meta name="google" content="notranslate">
+
+    <!-- Verify ownership for Google Search Console -->
+    <meta name="google-site-verification" content="verification_token">
+
+    <!-- Verify ownership for Yandex Webmasters -->
+    <meta name="yandex-verification" content="verification_token">
+
+    <!-- Verify ownership for Bing Webmaster Center -->
+    <meta name="msvalidate.01" content="verification_token">
+
+    <!-- Verify ownership for Alexa Console -->
+    <meta name="alexaVerifyID" content="verification_token">
+
+    <!-- Verify ownership for Norton Safe Web -->
+    <meta name="norton-safeweb-site-verification" content="norton code">
+
+    <!-- Used to name software used to build the website (i.e. - WordPress, Dreamweaver) -->
+    <meta name="generator" content="phpstorm">
+
+    <!-- Gives a general age rating based on sites content -->
+    <meta name="rating" content="General">
+
+    <!-- Allows control over how referrer information is passed -->
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="telephone=no">
 
     <!-- Seo Mojo -->
 
@@ -51,7 +84,9 @@ SOFTWARE.
     <meta property="og:description" content="a browser game based around vampires.">
     <meta property="og:image" content="http://vampire.town/thumbnail.png">
     <meta property="og:url" content="http://vampire.town/index.html">
-    <meta property="fb:app_id" content="" />
+    <meta property="fb:app_id" content="add_id" />
+    +<meta property="fb:admins" content="user_id" />
+    +<meta property="fb:page_id" content="your_page_id" />
 
     <!-- Twitter SEO -->
 
@@ -70,12 +105,19 @@ SOFTWARE.
     <meta name="copyright" content="Wayne Meadows">
     <meta name="revised" content="10/6/17">
     <meta name='Classification' content='Business'>
-    <meta name='url' content='vampre.town'>
-    <meta http-equiv='Expires' content='0'>
-    <meta http-equiv='Pragma' content='no-cache'>
-    <meta http-equiv='Cache-Control' content='no-cache'>
-    <meta http-equiv='imagetoolbar' content='no'>
-    <meta http-equiv='x-dns-prefetch-control' content='off'>
+    <meta name="url" content="vampre.town">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+
+    <!- Schema.org -->
+
+    <meta itemprop="name" content="Vampire.town">
+    <meta itemprop="description" content="a browser game based around vampires">
+    <meta itemprop="image" content="https://vampire.town/thumbnail.jpg">
+
 
 
     <!-- mobile first -->
@@ -89,6 +131,30 @@ SOFTWARE.
 
     <!-- fav icon -->
     <link rel="icon" type="image/icon" href="https://s3.amazonaws.com/vampiretown/img/favicon.ico">
+
+    <!-- Javascript Goodies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- CSS Goodies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+
+    <!-- Link Juice -->
+
+    <!-- Links to the author of the document -->
+    <link rel="author" href="humans.txt">
+
+    <!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
+    <link rel="archives" href="https://vampire.town/archives/">
+
+    <!-- Links to top level resource in an hierarchical structure -->
+    <link rel="index" href="http://vampire.town">
+
+    <!-- Prefetching, preloading, prebrowsing -->
+    <link rel="dns-prefetch" href="//vampire.town">
+    <link rel="preconnect" href="https://vampire.town">
+    <link rel="prefetch" href="https://vampire.town">
+    <link rel="prerender" href="https://vampire.town">
+    <link rel="preload" href="https://s3.amazonaws.com/vampiretown/img/vtintro.png" as="image">
 
 </head>
 <body>
