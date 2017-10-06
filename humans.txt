@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Wayne Meadows
+    Erica Brumfield
+
+# THANKS
+
+    to the people who actually gave a damn about us
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS, Skeleton CSS
